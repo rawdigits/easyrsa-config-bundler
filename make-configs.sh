@@ -11,7 +11,7 @@ CONFIG_DIR="clients/${PREFIX_NAME}"
 
 /bin/echo $CONFIG_FILE
 
-mkdir clients/$PREFIX_NAME
+mkdir -p clients/$PREFIX_NAME
 
 #Make .ovpn file with embedded certs 
 CONFIG_FILE="${CONFIG_DIR}/${PREFIX_NAME}.ovpn"
